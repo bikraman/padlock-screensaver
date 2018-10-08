@@ -64,7 +64,7 @@ public class ScreenSaver {
             
             
             Font messageTextFont = new Font("HelveticaNeue-UltraLight",Font.PLAIN,225);
-            TextLayout txt = new TextLayout("00 00 00", messageTextFont, context);
+            TextLayout txt = new TextLayout("00:00:00", messageTextFont, context);
             Rectangle2D bounds = txt.getBounds();
             int xString = (int)((screenSize.width - (int)bounds.getWidth()) / 2 );
             int yString = (int)((screenSize.height/2) + (int)(bounds.getHeight()/2));
